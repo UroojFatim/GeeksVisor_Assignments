@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        
+        /* ID selector */
+        #main-heading {
+            color: blue;
+            font-size: 24px;
+        }
+
+        /* Universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: azure;
+        }
+
+        /* Class selector */
+        .highlight {
+            background-color: rgb(83, 255, 200);
+        }
+
+        /* Attribute selector */
+        input[type="text"] {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        /* Element selector */
+        p {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Pseudo-selectors */
+        li:first-child {
+            font-weight: bold;
+        }
+
+        li:last-child {
+            color: red;
+        }
+
+        /* Other selectors */
+        a[href^="https://"] {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-heading">CSS Selector Practice</h1>
+    <p>This is a paragraph with some text.</p>
+    <ul>
+        <li class="highlight">Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <input type="text" placeholder="Enter your name">
+    <a href="https://www.example.com">Visit Example</a>
+
+    <script>
+        let num1 = 10;
+        let num2 = 20;
+        let sum = num1 + num2;
+        alert("The sum of " + num1 + " and " + num2 + " is: " + sum);
+    </script>
+</body>
+</html>

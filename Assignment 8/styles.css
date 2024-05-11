@@ -1,0 +1,30 @@
+#content {
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#content p{
+    font-weight: 900;
+    font-size: larger;
+}
+
+button {
+    padding: 1%;
+    border: 2px solid black;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
