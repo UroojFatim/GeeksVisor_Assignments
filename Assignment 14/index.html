@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Form with Lists and Tables</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="user_email">
+        
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="user_feedback"></textarea>
+        
+        <label for="rating">Rating:</label>
+        <select id="rating" name="user_rating">
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="poor">Poor</option>
+        </select>
+        
+        <input type="submit" value="Submit">
+    </form>
+    
+    <h2>Guidelines</h2>
+    <ul>
+        <li>Please provide your honest feedback.</li>
+        <li>Fill in all the fields.</li>
+        <li>Use a valid email address.</li>
+    </ul>
+    
+    <h2>Submitted Feedback</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Feedback</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Urooj Fatima</td>
+                <td>uroojfatima@example.com</td>
+                <td>Great service!</td>
+                <td>Excellent</td>
+            </tr>
+            <tr>
+                <td>Tasmiya Ansari</td>
+                <td>tasmiyaansari@example.com</td>
+                <td>Good experience.</td>
+                <td>Good</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
